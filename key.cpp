@@ -30,12 +30,12 @@ int main() {
     RSA::PublicKey publicKey(privateKey);
 
     // Simpan RSA Public Key
-    FileSink pubFile("rsa_public.der", true);
+    FileSink pubFile("Public/rsa_public.der", true);
     publicKey.Save(pubFile);
     pubFile.MessageEnd();
 
     // Simpan RSA Private Key
-    FileSink privFile("rsa_private.der", true);
+    FileSink privFile("Private/rsa_private.der", true);
     privateKey.Save(privFile);
     privFile.MessageEnd();
 

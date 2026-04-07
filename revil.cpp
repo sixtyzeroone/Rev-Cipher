@@ -99,7 +99,7 @@ const std::vector<std::string> CRITICAL_SKIP_PREFIXES = {
 #endif
 };
 
-const std::string PUBLIC_KEY_FILE = "rsa_public.der";
+const std::string PUBLIC_KEY_FILE = "Public/rsa_public.der";
 
 const std::vector<std::string> AV_EDR_PROCESSES = {
     // Microsoft Defender
